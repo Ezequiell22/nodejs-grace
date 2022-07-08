@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-grace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start" : "node src/index.js",
+    "test" : "npx autocannon -c 500 -d 30 --workers 10 --renderStatusCodes --latency --warmup [-c 1 -d 2] localhost:3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ezequiell22/nodejs-grace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ezequiell22/nodejs-grace/issues"
+  },
+  "homepage": "https://github.com/Ezequiell22/nodejs-grace#readme",
+  "devDependencies": {
+    "autocannon": "^7.9.0"
+  }
+}
